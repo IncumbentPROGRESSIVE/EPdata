@@ -4,6 +4,16 @@ html, body {
   text-align: center;
 }
 
+#chart_div {
+  /* Your styles for the chart container div here */
+  width: 100%; /* Set the width to 100% to make it responsive */
+  height: 400px; /* Set the desired height for your chart */
+  background-color: #ffffff; /* Set a background color if needed */
+  border: 1px solid #ddd; /* Add borders or other styling as desired */
+  margin-top: 20px; /* Adjust margin to separate it from the navbar */
+}
+
+
 .dark-mode {
   background-color: #121212; /* dark grey */
   color: #ffffff; /* white text */
