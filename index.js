@@ -5,6 +5,8 @@ var darkModeButton = document.getElementById('darkModeButton');
 var darkModeButton2 = document.getElementById('darkModeButton2');
 var darkModeButton3 = document.getElementById('darkModeButton3');
 
+// Ensure that you're appending the chart to the correct div
+var chartDiv = document.getElementById('chart_div');
 
 toggleButton.addEventListener('click', function() {
   if (electionIframe.src.includes('senate')) {
