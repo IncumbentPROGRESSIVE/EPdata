@@ -1,0 +1,61 @@
+.dark-mode {
+  background-color: #121212; /* dark grey */
+  color: #ffffff; /* white text */
+}
+
+.dark-mode .navbar {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .navbar a {
+  color: #ffffff;
+}
+
+.dark-mode .navbar a:hover {
+  background-color: #555555;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  float: left;
+  height: 50px; 
+  padding: 7px; 
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+button#darkModeButton {
+  float: right;
+  background-color: #808080; 
+  border: none;
+  color: white;
+  padding: 10px 15px; /* Reduced padding */
+  text-decoration: none;
+  font-size: 14px; /* Reduced font size */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; 
+  transition-duration: 0.4s;
+  align-self: center; /* Align the button vertically center */
+}
+
+
+button#darkModeButton:hover {
+  background-color: #4D4D4D; 
+  color: white;
+}
