@@ -11,16 +11,6 @@ html, body {
   align-items: stretch;
 }
 
-/* Style the navbar */
-.navbar {
-  background-color: #333; /* Customize the background color */
-  color: white; /* Customize text color */
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* Style the chart container */
 #chart_div {
   /* Add any styling you need for the chart container */
@@ -48,14 +38,15 @@ html, body {
   background-color: #555555;
 }
 
+/* Style the navbar to match the first CSS document */
 .navbar {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1; /* Light gray background */
   overflow: hidden;
 }
 
 .navbar a {
   display: inline-block;
-  color: #333;
+  color: #333; /* Dark gray text color */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,13 +54,16 @@ html, body {
 
 .navbar-logo {
   float: left;
-  height: 50px; 
-  padding: 7px; 
+  height: 50px;
+  padding: 7px;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #ddd; /* Light gray background on hover */
 }
+
+/* Add your dark mode styles below if needed */
+
 
 button#darkModeButton {
   float: right;
