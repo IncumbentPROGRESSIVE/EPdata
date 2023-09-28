@@ -67,7 +67,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if (localStorage.getItem('dark-mode') === 'true') {
     document.body.classList.add('dark-mode');
     darkModeButton.classList.add('on');
-    darkModeButton2.classList.add('on');
-    darkModeButton3.classList.add('on');
   }
 });
