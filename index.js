@@ -24,35 +24,9 @@ toggleButton.addEventListener('click', function() {
   }
 });
 
-
-
 darkModeButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   darkModeButton.classList.toggle('on');
-
-  // Save Dark Mode setting in localStorage
-  if (document.body.classList.contains('dark-mode')) {
-    localStorage.setItem('dark-mode', 'true');
-  } else {
-    localStorage.setItem('dark-mode', 'false');
-  }
-});
-
-darkModeButton2.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  darkModeButton2.classList.toggle('on');
-
-  // Save Dark Mode setting in localStorage
-  if (document.body.classList.contains('dark-mode')) {
-    localStorage.setItem('dark-mode', 'true');
-  } else {
-    localStorage.setItem('dark-mode', 'false');
-  }
-});
-
-darkModeButton3.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  darkModeButton3.classList.toggle('on');
 
   // Save Dark Mode setting in localStorage
   if (document.body.classList.contains('dark-mode')) {
