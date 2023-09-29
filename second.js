@@ -1,4 +1,4 @@
-darkModeButton2.addEventListener('click', () => {
+darkModeButtontwo.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   darkModeButton.classList.toggle('on');
 
