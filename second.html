@@ -8,27 +8,37 @@
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
-         var data = new google.visualization.DataTable();
-         data.addColumn('string', 'Date');
-         data.addColumn('number', 'Biden');
-         data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-         data.addColumn('number', 'Trump');
-         data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-         data.addRows([
- ['01/01/2023', 0.442351921198703, 'Biden: 44.24%', 0.418471296636414, 'Trump: 41.85%'],
-['01/02/2023', 0.442351921198703, 'Biden: 44.24%', 0.418471296636414, 'Trump: 41.85%'],
- ]);
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Date');
+    data.addColumn('number', 'Biden');
+    data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+    data.addColumn('number', 'Trump');
+    data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+    data.addColumn('number', 'Kennedy');
+    data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+    data.addColumn('number', 'West');
+    data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+    data.addColumn('number', 'Stein');
+    data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
 
-         var options = {
-            title: 'Biden vs. Trump Polling Data',
-            curveType: 'function',
-            legend: { position: 'bottom' }
-         };
+  
+    data.addRows([
+        ['01/01/2023', 0.442351921198703, 'Biden: 44.24%', 0.418471296636414, 'Trump: 41.85%', 0.1, 'Kennedy: 10%', 0.01, 'West: 1%', 0.02, 'Stein: 2%'],
+        ['01/02/2023', 0.442351921198703, 'Biden: 44.24%', 0.418471296636414, 'Trump: 41.85%', 0.1, 'Kennedy: 10%', 0.01, 'West: 1%', 0.02, 'Stein: 2%'],
+        
+    ]);
 
-         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    var options = {
+       title: 'Polling Data',
+       curveType: 'function',
+       legend: { position: 'bottom' }
+    };
 
-         chart.draw(data, options);
-      }
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+}
+
    </script>
    <script type="text/javascript" src="index.js"></script>
    <script type="text/javascript" src="second.js"></script>
