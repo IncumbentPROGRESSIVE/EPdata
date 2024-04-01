@@ -9,7 +9,7 @@ html, body {
   color: #ffffff; /* white text */
 }
 
-.dark-mode .navbar {
+/*.dark-mode .navbar {
   background-color: #333333;
   color: #ffffff;
 }
@@ -20,7 +20,7 @@ html, body {
 
 .dark-mode .navbar a:hover {
   background-color: #555555;
-}
+} */
 
 .textbox {
   margin: 10px;
