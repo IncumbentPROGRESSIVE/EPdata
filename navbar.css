@@ -37,16 +37,16 @@
 .dark-mode .navbar a:hover {
   background-color: #555555;
 }
-
-/* Style the navbar to match the first CSS document *
+*/
+ /*Style the navbar to match the first CSS document  */
 .navbar {
-  background-color: #f1f1f1; /* Light gray background 
+  background-color: #f1f1f1;  
   overflow: hidden;
 }
 
 .navbar a {
   display: inline-block;
-  color: #333; /* Dark gray text color *
+  color: #333;  Dark gray text color 
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
