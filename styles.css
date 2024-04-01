@@ -4,7 +4,7 @@ html, body {
   text-align: center;
 }
 
-.dark-mode {
+/*.dark-mode {
   background-color: #121212; /* dark grey */
   color: #ffffff; /* white text */
 }
