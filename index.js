@@ -1,9 +1,9 @@
 var toggleButton = document.getElementById('toggleButton');
 var electionIframe = document.getElementById('electionIframe');
 var caption = document.querySelector('.caption');
-var darkModeButton = document.getElementById('darkModeButton');
-var darkModeButton2 = document.getElementById('darkModeButton2');
-var darkModeButton3 = document.getElementById('darkModeButton3');
+//var darkModeButton = document.getElementById('darkModeButton');
+//var darkModeButton2 = document.getElementById('darkModeButton2');
+//var darkModeButton3 = document.getElementById('darkModeButton3');
 
 // Ensure that you're appending the chart to the correct div
 var chartDiv = document.getElementById('chart_div');
@@ -24,22 +24,22 @@ toggleButton.addEventListener('click', function() {
   }
 });
 
-darkModeButton.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  darkModeButton.classList.toggle('on');
+//darkModeButton.addEventListener('click', () => {
+  //document.body.classList.toggle('dark-mode');
+  //darkModeButton.classList.toggle('on');
 
   // Save Dark Mode setting in localStorage
-  if (document.body.classList.contains('dark-mode')) {
-    localStorage.setItem('dark-mode', 'true');
-  } else {
-    localStorage.setItem('dark-mode', 'false');
-  }
-});
+  //if (document.body.classList.contains('dark-mode')) {
+    //localStorage.setItem('dark-mode', 'true');
+  //} else {
+    //localStorage.setItem('dark-mode', 'false');
+  //}
+//});
 
-window.addEventListener('DOMContentLoaded', (event) => {
+//window.addEventListener('DOMContentLoaded', (event) => {
   // Check for dark mode preference on page load
-  if (localStorage.getItem('dark-mode') === 'true') {
-    document.body.classList.add('dark-mode');
-    darkModeButton.classList.add('on');
-  }
-});
+  //if (localStorage.getItem('dark-mode') === 'true') {
+    //document.body.classList.add('dark-mode');
+    //darkModeButton.classList.add('on');
+  //}
+//});
