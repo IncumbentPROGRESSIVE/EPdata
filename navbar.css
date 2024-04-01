@@ -1,28 +1,28 @@
-html, body {
+//*html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
-/* Style the container to manage layout */
+ Style the container to manage layout 
 .container {
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
 
-/* Style the chart container */
+/* Style the chart container *
 #chart_div {
   /* Add any styling you need for the chart container */
-  /* For example, you can set width and height here */
+  /* For example, you can set width and height here *
   width: 100%;
-  height: 400px; /* Customize the height as needed */
+  height: 400px; /* Customize the height as needed 
 }
 
 
 .dark-mode {
   background-color: #121212; /* dark grey */
-  color: #ffffff; /* white text */
+  color: #ffffff; /* white text *
 }
 
 .dark-mode .navbar {
@@ -38,15 +38,15 @@ html, body {
   background-color: #555555;
 }
 
-/* Style the navbar to match the first CSS document */
+/* Style the navbar to match the first CSS document *
 .navbar {
-  background-color: #f1f1f1; /* Light gray background */
+  background-color: #f1f1f1; /* Light gray background 
   overflow: hidden;
 }
 
 .navbar a {
   display: inline-block;
-  color: #333; /* Dark gray text color */
+  color: #333; /* Dark gray text color *
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,7 +62,7 @@ html, body {
   background-color: #ddd; /* Light gray background on hover */
 }
 
-/* Add your dark mode styles below if needed */
+/* Add your dark mode styles below if needed *
 
 
 button#darkModeButton {
@@ -70,18 +70,12 @@ button#darkModeButton {
   background-color: #808080; 
   border: none;
   color: white;
-  padding: 10px 15px; /* Reduced padding */
+  padding: 10px 15px; /* Reduced padding *
   text-decoration: none;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px; /* Reduced font size *
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px; 
   transition-duration: 0.4s;
   align-self: center; /* Align the button vertically center */
-}
 
-
-button#darkModeButton:hover {
-  background-color: #4D4D4D; 
-  color: white;
-}
