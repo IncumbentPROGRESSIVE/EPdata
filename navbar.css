@@ -1,4 +1,4 @@
-//*html, body {
+html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -11,18 +11,18 @@
   align-items: stretch;
 }
 
-/* Style the chart container *
+ Style the chart container *
 #chart_div {
   /* Add any styling you need for the chart container */
-  /* For example, you can set width and height here *
+   For example, you can set width and height here 
   width: 100%;
-  height: 400px; /* Customize the height as needed 
+  height: 400px;  
 }
 
 
 .dark-mode {
-  background-color: #121212; /* dark grey */
-  color: #ffffff; /* white text *
+  background-color: #121212; 
+  color: #ffffff; 
 }
 
 .dark-mode .navbar {
@@ -59,20 +59,17 @@
 }
 
 .navbar a:hover {
-  background-color: #ddd; /* Light gray background on hover */
+  background-color: #ddd; 
 }
-
-/* Add your dark mode styles below if needed *
-
 
 button#darkModeButton {
   float: right;
   background-color: #808080; 
   border: none;
   color: white;
-  padding: 10px 15px; /* Reduced padding *
+  padding: 10px 15px; 
   text-decoration: none;
-  font-size: 14px; /* Reduced font size *
+  font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px; 
