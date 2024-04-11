@@ -19,6 +19,7 @@ html, body {
 .navbar {
   background-color: #f1f1f1;
   overflow: hidden;
+   width: 100%;
 }
 
 .navbar a {
@@ -27,6 +28,7 @@ html, body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 .navbar-logo {
