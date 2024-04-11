@@ -2,20 +2,23 @@
 <html>
 <head>
    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="styles.css">
    <link rel="stylesheet" type="text/css" href="navbar.css">
-   
 </head>
 <body>
-    <div class="container">
-   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-   <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-    var data = new google.visualization.DataTable();
+   <div class="container">
+      <div class="navbar">
+         <a href="index.html">2022 Election Preview</a>
+         <a href="second.html">Biden v Trump</a>
+         <img src="https://electionpreview.net/wp-content/uploads/2022/09/EP.png" class="navbar-logo" alt="Election Preview Logo">
+      </div>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+         google.charts.load('current', {'packages':['corechart']});
+         google.charts.setOnLoadCallback(drawChart);
+         function drawChart() {
+          var data = new google.visualization.DataTable();
     data.addColumn('string', 'Date');
     data.addColumn('number', 'Biden');
     data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
@@ -350,19 +353,12 @@
 
     var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
-    chart.draw(data, options);
-}
-
-   </script>
-   <script type="text/javascript" src="index.js"></script>
-   <div class="container">    
-  <div class="navbar">
-    <a href="index.html">2022 Election Preview</a>
-    <a href="second.html">Biden v Trump</a>
-    <img src="https://electionpreview.net/wp-content/uploads/2022/09/EP.png" class="navbar-logo" alt="Election Preview Logo">
-  </div>
-  <div id="chart_div"></div>
-</div>
- </div>       
+    chart.draw(data, options);  }
+      </script>
+      <script type="text/javascript" src="index.js"></script>
+      <div class="container">    
+         <div id="chart_div"></div>
+      </div>
+   </div>       
 </body>
 </html>
