@@ -11,24 +11,6 @@ html, body {
     box-sizing: border-box;
 }
 
-.dark-mode {
-  background-color: #121212; /* dark grey */
-  color: #ffffff; /* white text */
-}
-
-.dark-mode .navbar {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-.dark-mode .navbar a {
-  color: #ffffff;
-}
-
-.dark-mode .navbar a:hover {
-  background-color: #555555;
-} */
-
 .textbox {
   margin: 10px;
   width: 50%;
@@ -100,42 +82,6 @@ iframe {
   font-weight: bold;
 }
 
-.switch-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.switch {
-  position: relative;
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #ccc;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.switch::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background-color: #fff;
-  transition: transform 0.3s;
-}
-
-.switch.on {
-  background-color: #2196F3;
-}
-
-.switch.on::before {
-  transform: translateX(40px);
-}
-
 button#toggleButton {
   background-color: #007BFF; 
   border: none;
@@ -153,70 +99,6 @@ button#toggleButton {
 
 button#toggleButton:hover {
   background-color: #0069D9; 
-  color: white;
-}
-
-
-button#darkModeButton {
-  float: right;
-  background-color: #808080; 
-  border: none;
-  color: white;
-  padding: 10px 15px; /* Reduced padding */
-  text-decoration: none;
-  font-size: 14px; /* Reduced font size */
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px; 
-  transition-duration: 0.4s;
-  align-self: center; /* Align the button vertically center */
-}
-
-
-button#darkModeButton:hover {
-  background-color: #4D4D4D; 
-  color: white;
-}
-
-button#darkModeButton2 {
-  float: right;
-  background-color: #808080; 
-  border: none;
-  color: white;
-  padding: 10px 15px; /* Reduced padding */
-  text-decoration: none;
-  font-size: 14px; /* Reduced font size */
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px; 
-  transition-duration: 0.4s;
-  align-self: center; /* Align the button vertically center */
-}
-
-
-button#darkModeButton2:hover {
-  background-color: #4D4D4D; 
-  color: white;
-}
-
-button#darkModeButton3 {
-  float: right;
-  background-color: #808080; 
-  border: none;
-  color: white;
-  padding: 10px 15px; /* Reduced padding */
-  text-decoration: none;
-  font-size: 14px; /* Reduced font size */
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px; 
-  transition-duration: 0.4s;
-  align-self: center; /* Align the button vertically center */
-}
-
-
-button#darkModeButton3:hover {
-  background-color: #4D4D4D; 
   color: white;
 }
 
