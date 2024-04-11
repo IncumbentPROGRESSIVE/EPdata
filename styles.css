@@ -4,6 +4,12 @@ html, body {
   text-align: center;
 }
 
+.container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .dark-mode {
   background-color: #121212; /* dark grey */
   color: #ffffff; /* white text */
