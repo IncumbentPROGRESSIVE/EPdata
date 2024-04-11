@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100vw;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 0; 
@@ -70,7 +71,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   width: 90vw; 
-  height: 80vw;
+  height: 40vw;
   margin: 0 auto; 
 }
 
