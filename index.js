@@ -1,6 +1,17 @@
 var toggleButton = document.getElementById('toggleButton');
 var electionIframe = document.getElementById('electionIframe');
 var caption = document.querySelector('.caption');
+function resizeContainer() {
+    var viewportWidth = window.innerWidth;
+    var containerWidth = Math.min(viewportWidth, 1200); // Maximum width for the container
+
+    document.querySelector('.container').style.width = containerWidth + 'px';
+}
+
+// Call the resizeContainer function initially and whenever the window is resized
+resizeContainer();
+window.addEventListener('resize', resizeContainer);
+
 
 // Ensure that you're appending the chart to the correct div
 var chartDiv = document.getElementById('chart_div');
