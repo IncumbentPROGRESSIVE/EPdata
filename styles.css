@@ -1,13 +1,13 @@
 html, body {
   height: 100%;
-  width: 100%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  margin: 0; /* Reset default margin */
 }
 
 .container {
-    width: 100%;
-    padding: 0px;
+    width: 100vw; /* Use vw for viewport width */
+    padding: 0;
     box-sizing: border-box;
 }
 
